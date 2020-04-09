@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC750B21C91A02B2E99ED893 /* Pods-Bongloy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bongloy_Example.debug.xcconfig"; path = "Target Support Files/Pods-Bongloy_Example/Pods-Bongloy_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D589CDC219599CAC38041356 /* Pods-Bongloy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bongloy_Example.release.xcconfig"; path = "Target Support Files/Pods-Bongloy_Example/Pods-Bongloy_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF1EACD3CE2AF2347F150B3B /* Bongloy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Bongloy.podspec; path = ../Bongloy.podspec; sourceTree = "<group>"; };
-		F13BC885CCE3B5F67A3C47A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F8B0688A1B46914FF18B885F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF1EACD3CE2AF2347F150B3B /* Bongloy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Bongloy.podspec; path = ../Bongloy.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F13BC885CCE3B5F67A3C47A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8B0688A1B46914FF18B885F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				2B3EF7C0282EFAAC27CE86D3 /* Pods-Bongloy_Tests.debug.xcconfig */,
 				316DDBCCCA5B1472B3ADC0D2 /* Pods-Bongloy_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

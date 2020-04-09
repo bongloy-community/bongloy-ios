@@ -1,0 +1,16 @@
+PODS:
+  - Bongloy (0.1.0)
+
+DEPENDENCIES:
+  - Bongloy (from `../`)
+
+EXTERNAL SOURCES:
+  Bongloy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bongloy: b35d98b58ec3ab16ccbcf628adc41d8309ac88bc
+
+PODFILE CHECKSUM: ca25fd73b0f8607799730a190f7777bf8f4a78c8
+
+COCOAPODS: 1.8.4
