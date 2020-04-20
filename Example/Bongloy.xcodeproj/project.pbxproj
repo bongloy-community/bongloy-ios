@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Khom Sovon";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = FSAT9SGCA7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = BC750B21C91A02B2E99ED893 /* Pods-Bongloy_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSAT9SGCA7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bongloy/Bongloy-Prefix.pch";
 				INFOPLIST_FILE = "Bongloy/Bongloy-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = D589CDC219599CAC38041356 /* Pods-Bongloy_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSAT9SGCA7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bongloy/Bongloy-Prefix.pch";
 				INFOPLIST_FILE = "Bongloy/Bongloy-Info.plist";
