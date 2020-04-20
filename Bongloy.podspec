@@ -1,11 +1,3 @@
-#
-# Be sure to run `pod lib lint Bongloy.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'Bongloy'
   s.version          = '0.1.0'
@@ -13,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = 'Bongloy is the easiest way to accept payments online.'
   s.homepage         = 'https://github.com/khomsovon/bongloy-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Khom Sovon' => 'khom.sovon@gmail.com' }
+  s.author           = { 'khomsovon' => 'sovon.khom68@gmail.com' }
   s.source           = { :git => 'https://github.com/khomsovon/bongloy-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
 

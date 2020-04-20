@@ -1,16 +1,23 @@
 PODS:
-  - Bongloy (0.1.0)
+  - Bongloy (0.1.0):
+    - Stripe (>= 16.0.0)
+  - Stripe (17.0.3)
 
 DEPENDENCIES:
   - Bongloy (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Stripe
 
 EXTERNAL SOURCES:
   Bongloy:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Bongloy: b35d98b58ec3ab16ccbcf628adc41d8309ac88bc
+  Bongloy: f0c93834786399c0b25d37a008ac32b39106dd7c
+  Stripe: 30ba9a2ac7297e93de561fed695222ef980ee521
 
-PODFILE CHECKSUM: ca25fd73b0f8607799730a190f7777bf8f4a78c8
+PODFILE CHECKSUM: 2926b6969d8df72c7893c370d608555db17036e7
 
 COCOAPODS: 1.8.4
