@@ -1,18 +1,18 @@
 //
-//  BAppDelegate.m
+//  AppDelegate.m
 //  Bongloy
 //
 //  Created by Khom Sovon on 04/06/2020.
-//  Copyright (c) 2020 Khom Sovon. All rights reserved.
 //
 
-#import "BAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation BAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [Stripe setDefaultPublishableKey:@"pk_test_69bf785ab0e264c9b6b081040ea460eaf79833ae2219e57f1cc3379c26955c1a"];
+
     return YES;
 }
 

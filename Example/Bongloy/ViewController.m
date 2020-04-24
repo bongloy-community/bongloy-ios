@@ -1,18 +1,17 @@
 //
-//  BViewController.m
+//  ViewController.m
 //  Bongloy
 //
 //  Created by Khom Sovon on 04/06/2020.
-//  Copyright (c) 2020 Khom Sovon. All rights reserved.
 //
 
-#import "BViewController.h"
+#import "ViewController.h"
 
-@interface BViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation BViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
