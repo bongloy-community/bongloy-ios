@@ -1,0 +1,6 @@
+framework module Bongloy {
+  umbrella header "Bongloy-umbrella.h"
+
+  export *
+  module * { export * }
+}

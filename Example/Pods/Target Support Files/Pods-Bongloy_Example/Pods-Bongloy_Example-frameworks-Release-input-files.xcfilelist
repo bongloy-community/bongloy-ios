@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-Bongloy_Example/Pods-Bongloy_Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Bongloy/Bongloy.framework
+${BUILT_PRODUCTS_DIR}/CreditCardForm/CreditCardForm.framework
+${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework
+${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework
